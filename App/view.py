@@ -108,6 +108,10 @@ if __name__ == "__main__":
 
         # TODO: Mods Lab 1, agregar la funcion opt 3 -> ladBookTags().
         elif int(inputs[0]) == 3:
+            print("Cargando información de libros con tags…")
+            book_tags = loadBooksTags(control)
+            print("Total de libros con tags cargados: " + str(book_tags))
+        elif int(inputs[0]) == 3:
             pass
 
         elif int(inputs[0]) == 0:
